@@ -74,51 +74,6 @@
         opacity: 0.8;
       }
     }
-
-    .footer-nav {
-      list-style: none;
-      li {
-        line-height: rem-calc(30);
-      }
-    }
-
-    .inline-list {
-        display: inline-block;
-        margin: 0;
-    }
-
-    .nav-section__top {
-
-        padding: rem-calc(60) rem-calc(10);
-        background-color: $nav-bg-top;
-        transform: translate3d(0,-100%, 0);
-        opacity: 0.5;
-        transition: all $transition-time $transition-time cubic-bezier(0.7, 0.01, 0.3, 1);
-
-        .nav-title {
-          font-size: rem-calc(16);
-          margin-bottom: rem-calc(12);
-        }
-
-        ul {
-            margin: 0;
-            list-style: none;
-            font-size: $h2-font-size;
-            line-height: 1.5;
-            a {
-                font-weight: 100;
-            }
-        }
-    }
-
-    .nav-section__bottom {
-        padding: rem-calc(40) rem-calc(20);
-        .phone-number {
-          font-size: $h3-font-size;
-          margin-top: rem-calc(20);
-        }
-    }
-
 }
 
 
@@ -150,15 +105,6 @@
             &:after {
                 top: 0 !important;
                 transform: rotate(45deg);
-            }
-        }
-    }
-
-
-    .inline-list {
-        li {
-            a {
-                color: #fff;
             }
         }
     }

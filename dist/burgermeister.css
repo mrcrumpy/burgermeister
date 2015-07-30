@@ -2,9 +2,15 @@
   position: fixed;
   padding: 1rem 1.5rem;
   cursor: pointer;
-  right: 0;
-  top: 0;
   z-index: 1000; }
+  .nav-toggle__right {
+    right: 0; }
+  .nav-toggle__left {
+    left: 0; }
+  .nav-toggle__top {
+    top: 0; }
+  .nav-toggle__bottom {
+    bottom: 0; }
   .nav-toggle .burgermeister {
     width: 24px;
     height: 3px;

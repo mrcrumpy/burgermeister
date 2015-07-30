@@ -15,7 +15,7 @@
     .burgermeister {
         width: $burger-width;
         height: $stroke-width;
-        margin: 10px 0;
+        margin: $toggle-button-margin+$stroke-spacing 0;
         background: $burger-color;
         transition: all linear $transition-time;
         position: relative;

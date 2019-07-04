@@ -17,7 +17,7 @@
     margin: 10px 0;
     background: #000;
     -webkit-transition: all linear 0.3s;
-            transition: all linear 0.3s;
+    transition: all linear 0.3s;
     position: relative; }
     .nav-toggle .burgermeister:before, .nav-toggle .burgermeister:after {
       content: '';
@@ -27,7 +27,7 @@
       position: absolute;
       z-index: -1;
       -webkit-transition: all linear 0.3s;
-              transition: all linear 0.3s; }
+      transition: all linear 0.3s; }
     .nav-toggle .burgermeister:before {
       background: #000;
       top: -7px; }
@@ -36,11 +36,9 @@
       top: 7px; }
   .nav-toggle:hover .burgermeister:before {
     -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
   .nav-toggle:hover .burgermeister:after {
     -webkit-transform: translateY(50%);
-        -ms-transform: translateY(50%);
             transform: translateY(50%); }
 
 .full-nav-background {
@@ -55,17 +53,17 @@
   background-color: #fff;
   opacity: 0;
   -webkit-transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
-          transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
+  transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
   color: #fff;
   overflow-y: scroll; }
   .full-nav-background a {
     color: #fff;
     -webkit-transition: all 0.3s linear;
-            transition: all 0.3s linear;
+    transition: all 0.3s linear;
     text-decoration: none; }
     .full-nav-background a:hover {
       -webkit-transition: all 0.3s linear;
-              transition: all 0.3s linear;
+      transition: all 0.3s linear;
       opacity: 0.8; }
 
 .mobile-nav.open .full-nav-background {
@@ -86,10 +84,8 @@
     .mobile-nav.open .burgermeister:before {
       top: 0 !important;
       -webkit-transform: rotate(-45deg);
-          -ms-transform: rotate(-45deg);
               transform: rotate(-45deg); }
     .mobile-nav.open .burgermeister:after {
       top: 0 !important;
       -webkit-transform: rotate(45deg);
-          -ms-transform: rotate(45deg);
               transform: rotate(45deg); }

@@ -1,6 +1,5 @@
 import gulp, {series, parallel} from 'gulp';
 import del from 'del';
-// import plumber from 'gulp-plumber';
 import sass from 'gulp-sass';
 import autoprefixer from 'gulp-autoprefixer';
 
@@ -17,7 +16,6 @@ const watch = () => {
 
 const style = () => {
   return gulp.src(`${SRC}/burgermeister.scss`)
-  // .pipe(plumber())
   .pipe(sass())
   .pipe(autoprefixer())
   .pipe(gulp.dest(DIST));
